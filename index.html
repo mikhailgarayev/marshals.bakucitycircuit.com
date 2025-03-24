@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>AzerbaijanGP - Home</title>
+  <style>
+    /* Стили сброса (reset) или normalize по желанию */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #000;
+      padding: 10px 20px;
+    }
+
+    header .logo {
+      color: #fff;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: opacity 0.2s;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* Hero-секция */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 450px;
+      background: url('https://via.placeholder.com/1920x450.png?text=Welcome+to+AzerbaijanGP') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      color: #fff;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .hero-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+
+    .hero-content .btn {
+      display: inline-block;
+      background: #e00000;
+      color: #fff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background 0.3s;
+      margin: 5px;
+    }
+
+    .hero-content .btn:hover {
+      background: #c90000;
+    }
+
+    footer {
+      background: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #e00000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <a href="index.html" class="logo">AzerbaijanGP</a>
+    <nav>
+      <!-- Ссылки на страницы логина и регистрации -->
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Hero-секция -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to AzerbaijanGP</h1>
+      <p>
+        Join us to experience the thrill of Formula 1 in the heart of Baku.  
+        Become a marshal, get involved in motorsport events, and be part of our community.
+      </p>
+      <a href="signup.html" class="btn">Register Now</a>
+      <a href="login.html" class="btn">Sign In</a>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    © 2015 Accreditation system powered by <a href="#">TICKET.AZ</a> | <a href="#">English</a>
+  </footer>
+</body>
+</html>
